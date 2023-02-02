@@ -27,10 +27,10 @@
       </mat-autocomplete>
     </mat-form-field>
   </div>
-  <div>
+  <!-- <div>
     <pre>{{ heroeSeleccionado | json }}</pre>
-  </div>
-  <!-- <div *ngIf="heroeSeleccionado">
-    <app-hereo-tarjeta [heroe]="heroeSeleccionado"></app-hereo-tarjeta>
   </div> -->
+  <div *ngIf="heroeSeleccionado">
+    <app-hereo-tarjeta [heroe]="heroeSeleccionado"></app-hereo-tarjeta>
+  </div>
 </div>
